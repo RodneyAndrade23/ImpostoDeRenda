@@ -15,7 +15,7 @@ else:
     aux = 15
 
 salario = salario - salario * 0.09
-#ICSM
+#INSS
 
 print('=-=' * 15)
 print('IMPOSTO DO TRABALHADOR')
