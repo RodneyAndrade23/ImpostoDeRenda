@@ -17,9 +17,6 @@ else:
 salario = salario - salario * 0.09
 #ICSM
 
-salario = salario - salario * 0.08
-#IPVA
-
 print('=-=' * 15)
 print('IMPOSTO DO TRABALHADOR')
 print('-' * 15)
