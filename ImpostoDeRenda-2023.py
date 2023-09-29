@@ -21,7 +21,7 @@ elif salario_bruto > 3857 and salario_bruto >= 7507:
 
 print('Desconto do INSS:' ,aux, '%')
 
-
+print('=-=' * 15)
 
 if salario <= 2112:
     print('Você está insento do Imposto de Renda!')
