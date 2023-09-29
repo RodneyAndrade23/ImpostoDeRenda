@@ -3,9 +3,9 @@ hora = int(input('Digite o valor da sua hora de trabalho: '))
 salario = hora * 8 * 5 * 4
 salario_bruto = salario
 
-if salario_bruto <= 1302:
-    print('Você está isento do desconto do INSS!')
-    aux = 0
+if salario_bruto == 1302:
+    salario_bruto = salario - salario * 0.075
+    aux = 7.5
 
 if salario_bruto > 1302 and salario_bruto <= 2571:
     salario_bruto = salario - salario * 0.09
